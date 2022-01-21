@@ -1,0 +1,152 @@
+header{
+	background-color : #071330;
+}
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.invalid {
+    color: red;
+}
+.navbar-brand img{
+    width: 150px;
+    height: auto;
+}
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+	padding : 0 10px 0 10px;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+}
+.navbar-brand {
+	margin-top:1.5%;
+}
+.sinlog{
+	margin-top : 2%;
+}
+#searchbar{
+	margin-left:4%;
+}
+/*Carousel styling*/
+.card-img-container{
+    width: 348px;
+    height:242px;
+  }
+.carousel-img-top{
+width:100%;
+height:100%;
+}
+/*Carousel styling ends*/
+.form-inline{
+    width: 40%;
+}
+.form-inline > a{
+    margin-left: 3%;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-inline .btn{
+    border-color: #ffffff;
+    color: #FFFFFF;
+}
+header .form-inline .btn:hover{
+    background-color: #e38484;
+}
+a{
+    font-family: 'Alegreya Sans SC';
+    font-size: 22px;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    color: ;
+}
+footer .container {
+	
+    padding: 1em;
+}
+footer .form-inline{
+    width: 100%;
+    margin-top: 5%;
+    border-bottom:1px #000000 solid;
+    padding-bottom: 3em;
+}
+footer form h4 span{
+    font-family:"Brush Script MT";
+}
+footer .form-inline input{
+    margin-left: 1%;
+    border-radius: 0 ;
+    border-color: #000000;
+}
+footer .form-inline button{
+    color: #e38484;
+    background-color: #000000;
+
+}
+footer .form-inline button:hover{
+    background-color: #e38484;
+    color: #000000;
+}
+#btn {
+    margin-top:1em;
+}
+#cmts {
+    margin-top:1em;
+}
+#typage{
+	background-color : #71d8f5;
+}
+#typage div p{
+	font-size:20px;
+	color:#5C5C5C;
+}
+
+#newLetterForm, #updateLetterForm{
+	margin:5% 0;
+}
+
+#updateLetterForm button, #newLetterForm button{
+	margin-right:2%;
+}
+
+.feed-main-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.feed-card{
+    flex:1 0 30%;
+    margin: 0.5em;
+}
+
+.sorting-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.sorting-dd{ 
+    flex: 1 0 auto;
+}
+.sorting-dd select{
+    padding:1em;
+    width:100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
